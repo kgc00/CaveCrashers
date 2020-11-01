@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Board", "Board\Board.csproj", "{540C9CFF-FAA3-439E-9268-C60DEA004F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiles", "Tiles\Tiles.csproj", "{C0927277-4646-48BD-9A2A-156E76CE812F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{540C9CFF-FAA3-439E-9268-C60DEA004F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540C9CFF-FAA3-439E-9268-C60DEA004F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540C9CFF-FAA3-439E-9268-C60DEA004F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540C9CFF-FAA3-439E-9268-C60DEA004F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0927277-4646-48BD-9A2A-156E76CE812F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0927277-4646-48BD-9A2A-156E76CE812F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0927277-4646-48BD-9A2A-156E76CE812F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0927277-4646-48BD-9A2A-156E76CE812F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
