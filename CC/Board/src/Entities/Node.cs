@@ -12,7 +12,7 @@ namespace CC.Board.Entities{
         public Node(NodeModel model) {
             Position = model.Position;
             StartingType = model.StartingType;
-            StateMachine = new TileFSM();
+            StateMachine = new TileFSM(StartingType);
         }
     }
 }

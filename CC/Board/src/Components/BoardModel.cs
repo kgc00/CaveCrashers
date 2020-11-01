@@ -41,7 +41,7 @@ namespace CC.Board.Components {
         private Type[,] PopulateWithUnexploredType(Type[,] states) {
             for (int i = 0; i < states.GetLength(0); i++) {
                 for (int j = 0; j < states.GetLength(1); j++) {
-                    if (states[i, j] == null) states[i, j] = typeof(Unexplored);
+                    if (states[i, j] == null || states[i, j].BaseType != typeof(TileState)) states[i, j] = typeof(Unexplored);
                 }
             }
 

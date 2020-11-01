@@ -37,6 +37,7 @@ namespace Board.Tests.Systems {
             private int size = 10;
             private Type[,] states;
             private BoardCreator creator;
+            private CC.Board.Entities.Board board;
 
             [SetUp]
             public void Setup() {
@@ -44,14 +45,18 @@ namespace Board.Tests.Systems {
                 states[size / 2, size / 2] = typeof(Corner);
                 model = new BoardModel(size, states);
                 creator = new BoardCreator(model);
+                board = creator.Create();
             }
 
             [Test]
-            public void Creator_Contains_States() {
-                var board = creator.Create();
-
+            public void Creator_Contains_Corner_State() {
                 creator.Model.TileTypes[size / 2, size / 2].ShouldBe(typeof(Corner));
                 board.Nodes[size / 2, size / 2].StartingType.ShouldBe(typeof(Corner));
+            }
+            
+            [Test]
+            public void Creator_Contains_Unexplored_State() {
+                board.Nodes[size / 4, size / 4].StartingType.ShouldBe(typeof(Unexplored));
             }
         }
     }

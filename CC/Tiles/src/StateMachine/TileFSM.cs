@@ -5,9 +5,9 @@ using FSM.States;
 
 namespace CC.Tiles {
     public class TileFSM : IFiniteStateMachine<TileState> {
-        public TileFSM() {
+        public TileFSM(Type startingType = null) {
             InitializeStates();
-            ChangeState(States[typeof(Unexplored)]);
+            ChangeState(States[startingType == null ? typeof(Unexplored) : startingType]);
         }
         
         public void InitializeStates() {
