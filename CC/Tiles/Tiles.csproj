@@ -62,7 +62,6 @@
         <Compile Include="src\States\Pit.cs" />
         <Compile Include="src\States\TileState.cs" />
         <Compile Include="src\States\Unexplored.cs" />
-        <Compile Include="tests\StateMachine\StateMachineTests.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

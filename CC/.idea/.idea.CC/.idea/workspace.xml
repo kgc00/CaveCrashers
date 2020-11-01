@@ -8,14 +8,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/53/f25785d4/CompositeWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3516CF20-6332-4A26-9958-BB386CAD4B9A/08/619ec6e6/IFiniteStateMachine`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/81/5ff5211c/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Board/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/3f/b9d1836d/SimpleWorkItemDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/c6/e8bb81fa/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/497E7C03-5433-4AE6-B257-9B219192BCF0/86/282f56e4/WorkItem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Tiles/MonoBehaviour1.cs" />
-        <option value="$PROJECT_DIR$/Board/Board.csproj" />
         <option value="$PROJECT_DIR$/Tiles/Tiles.csproj" />
+        <option value="$PROJECT_DIR$/Board.Tests/Tests.cs" />
+        <option value="$PROJECT_DIR$/Board/Board.csproj" />
+        <option value="$PROJECT_DIR$/Tiles/src/StateMachine/TileFSM.cs" />
+        <option value="$PROJECT_DIR$/Tiles.Tests/Tests.cs" />
+        <option value="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" />
+        <option value="$PROJECT_DIR$/Tiles.Tests/src/StateMachine/StateMachineTests.cs" />
+        <option value="$PROJECT_DIR$/Board.Tests/src/Components/NodeTests.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Entities/Node.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Components/NodeModel.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Systems/BoardCreator.cs" />
+        <option value="$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Components/BoardModel.cs" />
       </list>
     </option>
   </component>
@@ -27,8 +44,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="RiderUnitTestingPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -60,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604212985018</updated>
       <workItem from="1604212992795" duration="431000" />
-      <workItem from="1604213767568" duration="738000" />
+      <workItem from="1604213767568" duration="9117000" />
     </task>
     <servers />
   </component>
@@ -73,13 +99,120 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="559" y="278" key="Rider.ProjectTemplateDialog.Size" timestamp="1604213023042">
+    <state width="490" height="464" key="DebuggerActiveHint" timestamp="1604256721465">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="559" y="278" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604213023042" />
-    <state x="637" y="273" width="646" height="534" key="find.popup" timestamp="1604213778269">
+    <state width="490" height="464" key="DebuggerActiveHint/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604256721465" />
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1604258190750">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="637" y="273" width="646" height="534" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604213778269" />
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.1.center" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.1.left" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.1.right" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.2.center" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.2.left" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.2.right" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.3.center" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.3.left" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.3.right" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.4.bottom" timestamp="1604258190751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190751" />
+    <state width="1877" height="390" key="GridCell.Tab.4.center" timestamp="1604258190751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.4.left" timestamp="1604258190750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190750" />
+    <state width="1877" height="390" key="GridCell.Tab.4.right" timestamp="1604258190751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.4.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258190751" />
+    <state x="559" y="278" key="Rider.ProjectTemplateDialog.Size" timestamp="1604253139328">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="559" y="278" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604253139328" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1604253745321">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604253745321" />
+    <state x="637" y="273" width="646" height="534" key="find.popup" timestamp="1604258072980">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="637" y="273" width="646" height="534" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604258072980" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs</url>
+          <line>44</line>
+          <properties documentPath="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Board.Tests\src\Systems\BoardCreatorTests.cs" initialLine="44">
+            <startOffsets>
+              <option value="1258" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1295" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

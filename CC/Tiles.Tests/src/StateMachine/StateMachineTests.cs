@@ -1,7 +1,8 @@
-﻿using NUnit.Framework;
+﻿using CC.Tiles;
+using NUnit.Framework;
 using Shouldly;
 
-namespace CC.Tiles {
+namespace Tiles.Tests.StateMachine {
     public class StateMachineTests {
         [Test]
         public void Can_Initialize() {

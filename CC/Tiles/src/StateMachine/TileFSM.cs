@@ -5,6 +5,11 @@ using FSM.States;
 
 namespace CC.Tiles {
     public class TileFSM : IFiniteStateMachine<TileState> {
+        public TileFSM() {
+            InitializeStates();
+            ChangeState(States[typeof(Unexplored)]);
+        }
+        
         public void InitializeStates() {
             States = new Dictionary<Type, IEntityState<TileState>> {
                 { typeof(Unexplored), new Unexplored(this) },
@@ -15,8 +20,6 @@ namespace CC.Tiles {
                 { typeof(Pit), new Pit(this) },
                 { typeof(Intersection), new Intersection(this) }
             };
-
-            ChangeState(States[typeof(Unexplored)]);
         }
 
         public void ChangeState(IEntityState<TileState> newState) {
