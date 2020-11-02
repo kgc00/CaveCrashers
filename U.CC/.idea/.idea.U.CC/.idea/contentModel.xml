@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="BoardTester.cs" t="Include" />
           <e p="IntegrationDllTest.cs" t="Include" />
+          <e p="TileDebug.cs" t="Include" />
           <e p="Vector2Extensions.cs" t="Include" />
         </e>
       </e>

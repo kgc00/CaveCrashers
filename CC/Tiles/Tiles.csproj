@@ -82,7 +82,7 @@
         <None Include="packages.config" />
     </ItemGroup>
     <Target Name="AfterBuild">
-        <Copy SourceFiles="@(Dependencies)" DestinationFolder="$(SolutionDir)\..\U.CC\Assets\Plugins" ContinueOnError="true" />
+        <Copy SourceFiles="@(Dependencies)" DestinationFolder="$(SolutionDir)\..\U.CC\Assets\Plugins" ContinueOnError="true" OverwriteReadOnlyFiles="true"/>
     </Target>
 
 </Project>

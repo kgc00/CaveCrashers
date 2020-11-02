@@ -16,6 +16,7 @@ public class BoardTester : MonoBehaviour {
         print(board.Nodes.Length);
         foreach (var node in board.Nodes) {
             var go = Instantiate(Resources.Load<GameObject>("TilePrefab"), node.Position.Vector3(), quaternion.identity);
+            go.AddComponent<TileDebug>().Assign(node);
             go.transform.SetParent(transform);
         }
     }

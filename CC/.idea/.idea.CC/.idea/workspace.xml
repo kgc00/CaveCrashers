@@ -20,23 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd1292c-9593-4b78-84de-81e80117ea51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Board.Tests/src/Helpers/FactoryTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Board/src/Helpers/Factory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/Vector2Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/Vector2Extensions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/TileDebug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/TileDebug.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board.Tests/Board.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Board.Tests/Board.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board.Tests/src/Helpers/FactoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board.Tests/src/Helpers/FactoryTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Board/Board.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Board.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/src/Helpers/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board/src/Helpers/Factory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles/Tiles.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Board.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/CC.Board.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/CC.Board.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Resources/TilePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Resources/TilePrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +54,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Tiles/MonoBehaviour1.cs" />
-        <option value="$PROJECT_DIR$/Tiles/Tiles.csproj" />
         <option value="$PROJECT_DIR$/Board.Tests/Tests.cs" />
-        <option value="$PROJECT_DIR$/Board/Board.csproj" />
         <option value="$PROJECT_DIR$/Tiles/src/StateMachine/TileFSM.cs" />
         <option value="$PROJECT_DIR$/Tiles.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" />
@@ -72,6 +65,8 @@
         <option value="$PROJECT_DIR$/Board/src/Systems/BoardCreator.cs" />
         <option value="$PROJECT_DIR$/Board/src/Components/BoardModel.cs" />
         <option value="$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs" />
+        <option value="$PROJECT_DIR$/Board/Board.csproj" />
+        <option value="$PROJECT_DIR$/Tiles/Tiles.csproj" />
         <option value="$PROJECT_DIR$/Board.Tests/src/Helpers/FactoryTests.cs" />
         <option value="$PROJECT_DIR$/Board/src/Helpers/Factory.cs" />
       </list>

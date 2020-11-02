@@ -1,11 +1,16 @@
-﻿using NUnit.Framework;
+﻿using CC.Board.Helpers;
+using NUnit.Framework;
 using Shouldly;
 
 namespace Board.Tests.Helpers {
     public class FactoryTests {
         [Test]
         public void Does_Not_Throw() {
-            Should.NotThrow(CC.Board.Helpers.Factory.DefaultConfiguration);
+            Should.NotThrow(Factory.DefaultConfiguration);
+        }
+
+        public void HallwaysNumber8() {
+            // Factory.DefaultConfiguration().TileTypes
         }
     }
 }
