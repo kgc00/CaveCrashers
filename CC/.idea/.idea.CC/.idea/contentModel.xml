@@ -28,6 +28,9 @@
             <e p="Board.cs" t="Include" />
             <e p="Node.cs" t="Include" />
           </e>
+          <e p="Helpers" t="Include">
+            <e p="Factory.cs" t="Include" />
+          </e>
           <e p="Interfaces" t="Include">
             <e p="IActor.cs" t="Include" />
             <e p="IInteractable.cs" t="Include" />
@@ -52,6 +55,9 @@
           </e>
           <e p="Entities" t="Include">
             <e p="BoardTests.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="FactoryTests.cs" t="Include" />
           </e>
           <e p="Systems" t="Include">
             <e p="BoardCreatorTests.cs" t="Include" />

@@ -49,9 +49,13 @@ namespace Board.Tests.Systems {
             }
 
             [Test]
+            public void Model_Contains_Corner_State() {
+                board.Nodes[size / 2, size / 2].StartingType.ShouldBe(typeof(Corner));
+            }
+            
+            [Test]
             public void Creator_Contains_Corner_State() {
                 creator.Model.TileTypes[size / 2, size / 2].ShouldBe(typeof(Corner));
-                board.Nodes[size / 2, size / 2].StartingType.ShouldBe(typeof(Corner));
             }
             
             [Test]

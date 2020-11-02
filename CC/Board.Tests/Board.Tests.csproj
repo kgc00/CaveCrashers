@@ -55,6 +55,7 @@
     <ItemGroup>
         <Compile Include="src\Components\NodeTests.cs" />
         <Compile Include="src\Entities\BoardTests.cs" />
+        <Compile Include="src\Helpers\FactoryTests.cs" />
         <Compile Include="src\Systems\BoardCreatorTests.cs" />
         <Compile Include="Tests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

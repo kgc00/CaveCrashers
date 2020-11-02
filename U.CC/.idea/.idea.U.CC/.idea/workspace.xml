@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="" />
+    <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CC/Board.Tests/src/Helpers/FactoryTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vector2Extensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vector2Extensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/Board.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/Board.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/src/Systems/BoardCreatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/src/Systems/BoardCreatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/Board.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Board.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CC.Board.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/CC.Board.dll.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/594C9FB9-B516-447B-9A5F-A7C8D5E4BCA7/3b/bce52990/BoardCreator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9DBC139F-C0E9-46C4-A0ED-FA135E48A833/9e/e4d40ace/BoardCreator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -17,10 +58,15 @@
         <option value="$PROJECT_DIR$/../CC/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vector2Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jg6bSj7nu0PsCQ4i2xE4fa6B0v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -69,6 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604213460574</updated>
       <workItem from="1604213464992" duration="1404000" />
+      <workItem from="1604274774911" duration="725000" />
     </task>
     <servers />
   </component>
@@ -77,6 +124,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

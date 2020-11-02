@@ -32,6 +32,9 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="FSM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Tiles\FSM.dll</HintPath>
+        </Reference>
         <Reference Include="Microsoft.CSharp" />
         <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
           <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
@@ -54,6 +57,7 @@
         <Compile Include="src\Components\NodeModel.cs" />
         <Compile Include="src\Entities\Board.cs" />
         <Compile Include="src\Entities\Node.cs" />
+        <Compile Include="src\Helpers\Factory.cs" />
         <Compile Include="src\Interfaces\IActor.cs" />
         <Compile Include="src\Interfaces\IInteractable.cs" />
         <Compile Include="src\Systems\BoardCreator.cs" />
