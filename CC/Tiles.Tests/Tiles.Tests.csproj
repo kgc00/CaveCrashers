@@ -51,6 +51,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="src\Helpers\HelperTests.cs" />
         <Compile Include="src\StateMachine\StateMachineTests.cs" />
     </ItemGroup>
     <ItemGroup>

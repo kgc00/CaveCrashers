@@ -1,20 +1,17 @@
 ﻿using System;
-using CC.Tiles;
-using JetBrains.Annotations;
+using CC.Tiles.Helpers;
 using UnityEngine;
 
 namespace CC.Board.Components {
     public struct NodeModel {
         public Vector2 Position { get; private set; }
         public string ImagePath { get; private set; }
-        public Type StartingType { get; private set; }
+        public Type StartingStateType { get; }
 
-        public NodeModel(Vector2 position, Type startingType) {
+        public NodeModel(Vector2 position, Type exploredStateType) {
             Position = position;
             ImagePath = "";
-            StartingType = startingType.BaseType == typeof(TileState)
-                ? startingType
-                : throw new Exception("Unsupported type");
+            StartingStateType = TypeEnforcer.ExploredStateTypeEnforcer(exploredStateType);
         }
     }
 }

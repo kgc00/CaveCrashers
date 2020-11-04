@@ -7,7 +7,7 @@ namespace CC.Tiles {
     public class TileFSM : IFiniteStateMachine<TileState> {
         public TileFSM(Type startingType = null) {
             InitializeStates();
-            ChangeState(States[startingType == null ? typeof(Unexplored) : startingType]);
+            ChangeState(States[startingType == null ? typeof(Unexplored) : Helpers.TypeEnforcer.ExploredStateTypeEnforcer(startingType)]);
         }
         
         public void InitializeStates() {

@@ -5,7 +5,7 @@ using CC.Tiles;
 namespace CC.Board.Helpers {
     public static class Factory {
         public static BoardModel DefaultConfiguration() {
-            // in order for the middle hallways to be center size should be some odd number
+            // in order for the middle hallways to be centered, the size should be some odd number
             var size = 9;
             var states = new Type[size, size];
             for (int i = 0; i < states.GetLength(0); i++) {

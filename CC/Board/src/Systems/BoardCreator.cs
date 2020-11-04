@@ -21,7 +21,7 @@ namespace CC.Board.Systems {
             var nodes = new Node[Model.Size.GetLength(0), Model.Size.GetLength(1)];
             for (int i = 0; i < Model.Size.GetLength(0); i++) {
                 for (int j = 0; j < Model.Size.GetLength(1); j++) {
-                    nodes[i, j] = new Node(CreateNodeModel(new Vector2(i, j), Model.TileTypes[i,j]));
+                    nodes[i, j] = new Node(CreateNodeModel(new Vector2(i, j), Model.TileStartingTypes[i,j]));
                 }
             }
 

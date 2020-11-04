@@ -50,17 +50,17 @@ namespace Board.Tests.Systems {
 
             [Test]
             public void Model_Contains_Corner_State() {
-                board.Nodes[size / 2, size / 2].StartingType.ShouldBe(typeof(Corner));
+                board.Nodes[size / 2, size / 2].StartingStateType.ShouldBe(typeof(Corner));
             }
             
             [Test]
             public void Creator_Contains_Corner_State() {
-                creator.Model.TileTypes[size / 2, size / 2].ShouldBe(typeof(Corner));
+                creator.Model.TileStartingTypes[size / 2, size / 2].ShouldBe(typeof(Corner));
             }
             
             [Test]
             public void Creator_Contains_Unexplored_State() {
-                board.Nodes[size / 4, size / 4].StartingType.ShouldBe(typeof(Unexplored));
+                board.Nodes[size / 4, size / 4].StartingStateType.ShouldBe(typeof(Unexplored));
             }
         }
     }

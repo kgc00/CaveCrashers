@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/src/Helpers/FactoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/src/Helpers/FactoryTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/Board.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Board.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Board.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TilePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/TilePrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
