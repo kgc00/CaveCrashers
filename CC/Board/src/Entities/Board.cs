@@ -1,8 +1,10 @@
-﻿namespace CC.Board.Entities {
-    public class Board {
-        public Node[,] Nodes { get; private set; }
+﻿using CC.Tiles.Entities;
 
-        public Board(Node[,] nodes) {
+namespace CC.Board.Entities {
+    public class Board {
+        public Tile[,] Nodes { get; private set; }
+
+        public Board(Tile[,] nodes) {
             Nodes = nodes;
         }
     }

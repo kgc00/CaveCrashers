@@ -1,19 +1,19 @@
-﻿using CC.Board.Components;
-using CC.Board.Entities;
-using CC.Tiles;
+﻿using CC.Tiles;
+using CC.Tiles.Components;
+using CC.Tiles.Entities;
 using NUnit.Framework;
 using Shouldly;
 using UnityEngine;
 
-namespace Board.Tests.Components {
-    public class NodeTests {
+namespace Tiles.Tests {
+    public class TileTests {
         
         [TestFixture]
-        public class NodeFixtureUnexploredState {
+        public class TileFixtureUnexploredState {
             #region Fixture Setup
 
-            private Node node;
-            private NodeModel model;
+            private Tile node;
+            private TileModel model;
             private Vector2 pos;
 
             [SetUp]
@@ -23,28 +23,28 @@ namespace Board.Tests.Components {
 
             private void AssignDefaults() {
                 pos = new Vector2(10,10);    
-                model = new NodeModel(pos, typeof(Unexplored));
-                node = new Node(model);
+                model = new TileModel(pos, typeof(Unexplored));
+                node = new Tile(model);
             }
             #endregion
 
             [Test]
-            public void Node_Has_Position() {
+            public void Tile_Has_Position() {
                 node.Position.ShouldBe(pos);
             }
 
             [Test]
-            public void Node_Has_State() {
+            public void Tile_Has_State() {
                 node.StateMachine.CurrentState.GetType().ShouldBe(typeof(Unexplored));
             }
         }
         
         [TestFixture]
-        public class NodeFixtureCornerState {
+        public class TileFixtureCornerState {
             #region Fixture Setup
 
-            private Node node;
-            private NodeModel model;
+            private Tile node;
+            private TileModel model;
             private Vector2 pos;
 
             [SetUp]
@@ -54,18 +54,18 @@ namespace Board.Tests.Components {
 
             private void AssignDefaults() {
                 pos = new Vector2(10,10);    
-                model = new NodeModel(pos, typeof(Corner));
-                node = new Node(model);
+                model = new TileModel(pos, typeof(Corner));
+                node = new Tile(model);
             }
             #endregion
 
             [Test]
-            public void Node_Has_Position() {
+            public void Tile_Has_Position() {
                 node.Position.ShouldBe(pos);
             }
 
             [Test]
-            public void Node_Has_State() {
+            public void Tile_Has_State() {
                 node.StateMachine.CurrentState.GetType().ShouldBe(typeof(Corner));
             }
         }

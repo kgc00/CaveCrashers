@@ -53,6 +53,8 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="src\Components\TileModel.cs" />
+        <Compile Include="src\Entities\Tile.cs" />
         <Compile Include="src\Helpers\TypeEnforcer.cs" />
         <Compile Include="src\StateMachine\TileFSM.cs" />
         <Compile Include="src\States\CaveIn.cs" />
@@ -63,6 +65,7 @@
         <Compile Include="src\States\Pit.cs" />
         <Compile Include="src\States\TileState.cs" />
         <Compile Include="src\States\Unexplored.cs" />
+        <Compile Include="src\Systems\TileCreator.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
