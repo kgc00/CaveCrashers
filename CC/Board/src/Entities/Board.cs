@@ -1,4 +1,4 @@
-﻿using CC.Tiles.Entities;
+﻿using CC.Tiles;
 
 namespace CC.Board.Entities {
     public class Board {

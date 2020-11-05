@@ -1,8 +1,7 @@
 ﻿using System;
-using CC.Tiles.Helpers;
 using UnityEngine;
 
-namespace CC.Tiles.Components {
+namespace CC.Tiles {
     public class TileModel {
         public Vector2 Position { get; private set; }
         public string ImagePath { get; private set; }

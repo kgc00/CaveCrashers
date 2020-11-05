@@ -1,12 +1,11 @@
-﻿using CC.Board.Entities;
-using CC.Tiles;
+﻿using CC.Tiles;
 using UnityEngine;
 
 public class TileDebug : MonoBehaviour {
-    private Node node;
+    private Tile tile;
 
-    public void Assign(Node node) => this.node = node;
+    public void Assign(Tile t) => tile = t;
     private void OnDrawGizmos() {
-        if (node.StartingType == typeof(Hallway)) Gizmos.DrawSphere(transform.position,0.25f);
+        if (tile?.StartingStateType == typeof(Hallway)) Gizmos.DrawSphere(transform.position,0.25f);
     }
 }

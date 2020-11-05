@@ -1,6 +1,5 @@
 ﻿using System;
 using CC.Tiles;
-using CC.Tiles.Helpers;
 using NUnit.Framework;
 using Shouldly;
 

@@ -1,6 +1,5 @@
 ﻿using System;
 using CC.Tiles;
-using CC.Tiles.Helpers;
 
 namespace CC.Board.Components {
     public class BoardModel {

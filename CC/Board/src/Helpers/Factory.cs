@@ -2,7 +2,7 @@
 using CC.Board.Components;
 using CC.Tiles;
 
-namespace CC.Board.Helpers {
+namespace CC.Board {
     public static class Factory {
         public static BoardModel DefaultConfiguration() {
             // in order for the middle hallways to be centered, the size should be some odd number

@@ -1,6 +1,6 @@
 ﻿using CC.Board.Components;
 using CC.Board.Entities;
-using CC.Tiles.Entities;
+using CC.Tiles;
 using UnityEngine;
 
 namespace CC.Board.Systems {

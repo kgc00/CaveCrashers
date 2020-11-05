@@ -20,24 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd1292c-9593-4b78-84de-81e80117ea51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tiles.Tests/src/Helpers/HelperTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tiles/src/Helpers/TypeEnforcer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/src/Components/BoardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board/src/Components/BoardModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/src/Components/NodeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board/src/Components/NodeModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/src/Entities/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board/src/Entities/Node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/src/Helpers/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board/src/Helpers/Factory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/src/Systems/BoardCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Board/src/Systems/BoardCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles.Tests/src/StateMachine/StateMachineTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.Tests/src/StateMachine/StateMachineTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles/Tiles.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles/src/StateMachine/TileFSM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles/src/StateMachine/TileFSM.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Board.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +48,6 @@
         <option value="$PROJECT_DIR$/Tiles.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" />
         <option value="$PROJECT_DIR$/Board.Tests/src/Components/NodeTests.cs" />
-        <option value="$PROJECT_DIR$/Board/src/Systems/BoardCreator.cs" />
         <option value="$PROJECT_DIR$/Board.Tests/src/Systems/BoardCreatorTests.cs" />
         <option value="$PROJECT_DIR$/Board/Board.csproj" />
         <option value="$PROJECT_DIR$/Tiles/Tiles.csproj" />
@@ -77,12 +60,19 @@
         <option value="$PROJECT_DIR$/Board/src/Components/TileStateType.cs" />
         <option value="$PROJECT_DIR$/Board/src/Helpers/BoardHelpers.cs" />
         <option value="$PROJECT_DIR$/Board/src/Components/NodeModel.cs" />
-        <option value="$PROJECT_DIR$/Board/src/Entities/Node.cs" />
         <option value="$PROJECT_DIR$/Tiles/src/Helpers/Helpers.cs" />
         <option value="$PROJECT_DIR$/Tiles/src/StateMachine/TileFSM.cs" />
-        <option value="$PROJECT_DIR$/Tiles/src/Helpers/TypeEnforcer.cs" />
         <option value="$PROJECT_DIR$/Tiles.Tests/src/Helpers/HelperTests.cs" />
         <option value="$PROJECT_DIR$/Tiles.Tests/src/StateMachine/StateMachineTests.cs" />
+        <option value="$PROJECT_DIR$/Tiles/src/Helpers/TypeEnforcer.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Entities/Node.cs" />
+        <option value="$PROJECT_DIR$/Tiles/src/Components/TileModel.cs" />
+        <option value="$PROJECT_DIR$/Tiles/src/Entities/Tile.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Entities/Board.cs" />
+        <option value="$PROJECT_DIR$/Tiles.Tests/src/Components/NodeTests.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Systems/TileCreator.cs" />
+        <option value="$PROJECT_DIR$/Tiles/src/Systems/TileCreator.cs" />
+        <option value="$PROJECT_DIR$/Board/src/Systems/BoardCreator.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +131,7 @@
       <updated>1604212985018</updated>
       <workItem from="1604212992795" duration="431000" />
       <workItem from="1604213767568" duration="10053000" />
-      <workItem from="1604289513421" duration="14717000" />
+      <workItem from="1604289513421" duration="17062000" />
     </task>
     <servers />
   </component>

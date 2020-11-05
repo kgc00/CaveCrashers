@@ -19,7 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="" />
+    <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/src/Helpers/FactoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/src/Helpers/FactoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Components/BoardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Components/BoardModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Entities/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Entities/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Systems/BoardCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Systems/BoardCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Components/NodeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Components/NodeTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Helpers/HelperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Helpers/HelperTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Components/TileModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Components/TileModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Entities/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Entities/Tile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Helpers/TypeEnforcer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Helpers/TypeEnforcer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/StateMachine/TileFSM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/StateMachine/TileFSM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Systems/TileCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Systems/TileCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +119,7 @@
       <updated>1604213460574</updated>
       <workItem from="1604213464992" duration="1404000" />
       <workItem from="1604274774911" duration="1932000" />
+      <workItem from="1604544421570" duration="323000" />
     </task>
     <servers />
   </component>
@@ -117,6 +138,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

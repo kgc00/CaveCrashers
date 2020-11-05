@@ -1,6 +1,4 @@
 ﻿using CC.Tiles;
-using CC.Tiles.Components;
-using CC.Tiles.Entities;
 using NUnit.Framework;
 using Shouldly;
 using UnityEngine;

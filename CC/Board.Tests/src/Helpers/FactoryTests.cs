@@ -1,4 +1,4 @@
-﻿using CC.Board.Helpers;
+﻿using CC.Board;
 using NUnit.Framework;
 using Shouldly;
 

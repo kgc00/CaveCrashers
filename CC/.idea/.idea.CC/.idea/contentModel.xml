@@ -22,11 +22,9 @@
         <e p="src" t="Include">
           <e p="Components" t="Include">
             <e p="BoardModel.cs" t="Include" />
-            <e p="NodeModel.cs" t="Include" />
           </e>
           <e p="Entities" t="Include">
             <e p="Board.cs" t="Include" />
-            <e p="Node.cs" t="Include" />
           </e>
           <e p="Helpers" t="Include">
             <e p="Factory.cs" t="Include" />
@@ -50,9 +48,6 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="src" t="Include">
-          <e p="Components" t="Include">
-            <e p="NodeTests.cs" t="Include" />
-          </e>
           <e p="Entities" t="Include">
             <e p="BoardTests.cs" t="Include" />
           </e>
@@ -63,7 +58,6 @@
             <e p="BoardCreatorTests.cs" t="Include" />
           </e>
         </e>
-        <e p="Tests.cs" t="Include" />
         <e p="Tiles.dll" t="Include" />
       </e>
       <e p="CC.sln" t="IncludeFlat" />
@@ -83,6 +77,12 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="src" t="Include">
+          <e p="Components" t="Include">
+            <e p="TileModel.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="Tile.cs" t="Include" />
+          </e>
           <e p="Helpers" t="Include">
             <e p="TypeEnforcer.cs" t="Include" />
           </e>
@@ -99,6 +99,9 @@
             <e p="TileState.cs" t="Include" />
             <e p="Unexplored.cs" t="Include" />
           </e>
+          <e p="Systems" t="Include">
+            <e p="TileCreator.cs" t="Include" />
+          </e>
         </e>
         <e p="Tiles.csproj" t="IncludeRecursive" />
       </e>
@@ -111,6 +114,9 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="src" t="Include">
+          <e p="Components" t="Include">
+            <e p="NodeTests.cs" t="Include" />
+          </e>
           <e p="Helpers" t="Include">
             <e p="HelperTests.cs" t="Include" />
           </e>

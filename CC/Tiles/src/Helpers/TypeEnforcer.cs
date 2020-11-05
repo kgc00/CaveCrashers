@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CC.Tiles.Helpers {
+namespace CC.Tiles {
     public static class TypeEnforcer {
         public static Type ExploredStateTypeEnforcer(Type tileState) {
             if (tileState == null) throw new ArgumentNullException($"tilestate must not be null");
