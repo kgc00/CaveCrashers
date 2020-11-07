@@ -1,6 +1,5 @@
 ﻿using System;
 using CC.Board.Components;
-using CC.Board.Systems;
 using CC.Tiles;
 using NUnit.Framework;
 using Shouldly;
@@ -37,7 +36,7 @@ namespace Board.Tests.Systems {
             private int size = 10;
             private Type[,] states;
             private BoardCreator creator;
-            private CC.Board.Entities.Board board;
+            private CC.Board.Components.Board board;
 
             [SetUp]
             public void Setup() {

@@ -4,9 +4,11 @@ using CC.Tiles;
 
 namespace CC.Board {
     public static class Factory {
+        public const int DefaultSize = 9;
         public static BoardModel DefaultConfiguration() {
+            var size = DefaultSize;
+            
             // in order for the middle hallways to be centered, the size should be some odd number
-            var size = 9;
             var states = new Type[size, size];
             for (int i = 0; i < states.GetLength(0); i++) {
                 for (int j = 0; j < states.GetLength(1); j++) {

@@ -1,6 +1,6 @@
 ﻿using CC.Tiles;
 
-namespace CC.Board.Entities {
+namespace CC.Board.Components {
     public class Board {
         public Tile[,] Nodes { get; private set; }
 

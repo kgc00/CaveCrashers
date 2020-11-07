@@ -41,11 +41,13 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="src\Collectable\CollectableComponent.cs" />
+        <Compile Include="src\Collectable\CollectorComponent.cs" />
         <Compile Include="src\Collectable\ICollectable.cs" />
+        <Compile Include="src\Collectable\ICollectableController.cs" />
         <Compile Include="src\Inventory\IInventory.cs" />
-        <Compile Include="src\Inventory\Inventory.cs" />
+        <Compile Include="src\Inventory\InventoryComponent.cs" />
         <Compile Include="src\Movement\IMovable.cs" />
+        <Compile Include="src\Movement\IMovementController.cs" />
         <Compile Include="src\Movement\MovementComponent.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

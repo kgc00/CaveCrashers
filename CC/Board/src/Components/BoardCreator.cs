@@ -1,9 +1,7 @@
-﻿using CC.Board.Components;
-using CC.Board.Entities;
-using CC.Tiles;
+﻿using CC.Tiles;
 using UnityEngine;
 
-namespace CC.Board.Systems {
+namespace CC.Board.Components {
     public class BoardCreator {
         public BoardModel Model { get; private set; }
 
@@ -11,9 +9,9 @@ namespace CC.Board.Systems {
             Model = model;
         }
 
-        public Entities.Board Create() {
+        public Components.Board Create() {
             var nodes = NodesFromModel();
-            Entities.Board board = new Entities.Board(nodes);
+            Components.Board board = new Components.Board(nodes);
             return board;
         }
 

@@ -2,10 +2,10 @@
 using CC.Components.Inventory;
 
 namespace CC.Components.Collectable {
-    public class CollectableComponent {
+    public class CollectorComponent {
         public IInventory Inventory { get; private set; }
         
-        public CollectableComponent(IInventory inventory) {
+        public CollectorComponent(IInventory inventory) {
             Inventory = inventory;
         }
 

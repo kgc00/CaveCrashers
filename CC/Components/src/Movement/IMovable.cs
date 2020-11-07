@@ -3,5 +3,6 @@
 namespace CC.Components.Movement {
     public interface IMovable {
         Vector2 Position { get; set; }
+        MovementComponent MovementComponent { get; set; }
     }
 }

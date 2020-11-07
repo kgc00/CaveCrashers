@@ -9,31 +9,45 @@ namespace Components.Tests.Inventory {
     public class InventoryTests {
         private Mock<ICollectable> collectable;
         private IInventory inventory;
-        private CollectableComponent collectableComponent;
+        private CollectorComponent collectorComponent;
 
         [SetUp]
         public void Setup() {
             collectable = new Mock<ICollectable>();
-            inventory = Mock.Of<IInventory>(_ => _.Pickups == new List<ICollectable>() );
-            collectableComponent = new CollectableComponent(inventory);
+            inventory = Mock.Of<IInventory>(_ => _.Pickups == new List<ICollectable>());
+            collectorComponent = new CollectorComponent(inventory);
         }
 
         [Test]
-        public void DoesInitialize() {
-            inventory.Pickups.Count.ShouldBe(0);
-        }
-        
-        [Test]
         public void Does_Add_Collectable() {
-            collectableComponent.Collect(collectable.Object);
-            
+            collectorComponent.Collect(collectable.Object);
+
             inventory.Pickups.ShouldContain(collectable.Object);
         }
 
-        [Test] public void Does_Call_Collect() {
-            collectableComponent.Collect(collectable.Object);
-            
+        [Test]
+        public void Does_Call_Collect() {
+            collectorComponent.Collect(collectable.Object);
+
             collectable.Verify(_ => _.Collect(), Times.Once);
+        }
+    }
+
+
+    public class InventoryInitializationTests {
+        private Mock<ICollectable> collectable = new Mock<ICollectable>();
+        private CollectorComponent collectorComponent;
+
+        public static IEnumerable<TestCaseData> InventorySource {
+            get {
+                yield return new TestCaseData(Mock.Of<IInventory>(_ => _.Pickups == new List<ICollectable>()));
+            }
+        }
+
+        [TestCaseSource(nameof(InventorySource))]
+        public void DoesInitialize(IInventory inventory) {
+            collectorComponent = new CollectorComponent(inventory);
+            collectorComponent.Inventory.Pickups.Count.ShouldBe(0);
         }
     }
 }

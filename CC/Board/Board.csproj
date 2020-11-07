@@ -45,12 +45,12 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="src\Components\Board.cs" />
+        <Compile Include="src\Components\BoardCreator.cs" />
         <Compile Include="src\Components\BoardModel.cs" />
-        <Compile Include="src\Entities\Board.cs" />
         <Compile Include="src\Helpers\Factory.cs" />
         <Compile Include="src\Interfaces\IActor.cs" />
         <Compile Include="src\Interfaces\IInteractable.cs" />
-        <Compile Include="src\Systems\BoardCreator.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
