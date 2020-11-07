@@ -20,25 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CC/Actors/src/Actor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components.Tests/src/Inventory/InventoryTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Collectable/CollectableComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Collectable/ICollectable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Inventory/IInventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Inventory/Inventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Movement/IMovable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Movement/MovementComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explorer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/src/Helpers/FactoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/src/Helpers/FactoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/Board.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/Board.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/Board.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Board.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/Board/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Components/BoardModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Components/BoardModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Entities/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Entities/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Systems/BoardCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Systems/BoardCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Components/NodeTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Components/NodeTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Helpers/HelperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/src/Helpers/HelperTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Components/TileModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Components/TileModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Entities/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Entities/Tile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Helpers/TypeEnforcer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Helpers/TypeEnforcer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/StateMachine/TileFSM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/StateMachine/TileFSM.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Systems/TileCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Systems/TileCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/CC.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/CC.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MG.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MG.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Shouldly.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Shouldly.dll.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +75,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector2Extensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Explorer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +136,8 @@
       <updated>1604213460574</updated>
       <workItem from="1604213464992" duration="1404000" />
       <workItem from="1604274774911" duration="1932000" />
-      <workItem from="1604544421570" duration="323000" />
+      <workItem from="1604544421570" duration="1209000" />
+      <workItem from="1604630801414" duration="2809000" />
     </task>
     <servers />
   </component>
@@ -142,5 +160,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="784" y="241" key="RiderGenerateDialog" timestamp="1604630921164">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="784" y="241" key="RiderGenerateDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604630921164" />
   </component>
 </project>

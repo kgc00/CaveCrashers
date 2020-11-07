@@ -36,14 +36,6 @@
           <HintPath>..\Tiles\FSM.dll</HintPath>
         </Reference>
         <Reference Include="Microsoft.CSharp" />
-        <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
-          <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Shouldly, Version=3.0.2.0, Culture=neutral, PublicKeyToken=6042cbcb05cbc941">
-          <HintPath>..\packages\Shouldly.3.0.2\lib\net451\Shouldly.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Xml" />
@@ -71,9 +63,6 @@
         <Dependencies Include="Tiles.dll" />
     </ItemGroup>
     <ItemGroup>
-        <None Include="packages.config" />
-    </ItemGroup>
-    <ItemGroup>
       <ProjectReference Include="..\Tiles\Tiles.csproj">
         <Project>{c0927277-4646-48bd-9a2a-156e76ce812f}</Project>
         <Name>Tiles</Name>
@@ -81,5 +70,6 @@
     </ItemGroup>
     <Target Name="AfterBuild">
         <Copy SourceFiles="@(Dependencies)" DestinationFolder="$(SolutionDir)\..\U.CC\Assets\Plugins" ContinueOnError="true" OverwriteReadOnlyFiles="true" />
+        <Copy SourceFiles="@(Dependencies)" DestinationFolder="$(SolutionDir)\Gameplay" ContinueOnError="true" OverwriteReadOnlyFiles="true" />
     </Target>
 </Project>

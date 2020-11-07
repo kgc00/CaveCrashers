@@ -8,11 +8,20 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BoardTester.cs" t="Include" />
+          <e p="Explorer" t="Include">
+            <e p="Explorer.cs" t="Include" />
+          </e>
+          <e p="Input" t="Include">
+            <e p="CC.Input.asmdef" t="Include" />
+            <e p="InputReader.cs" t="Include" />
+            <e p="PlayerInput.cs" t="Include" />
+          </e>
           <e p="IntegrationDllTest.cs" t="Include" />
           <e p="TileDebug.cs" t="Include" />
           <e p="Vector2Extensions.cs" t="Include" />
         </e>
       </e>
+      <e p="CC.Input.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
