@@ -84,6 +84,18 @@
       <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
+      <ProjectReference Include="..\Actors\Actors.csproj">
+        <Project>{905605aa-92a0-4b93-a8a0-2ea4a7d8be7e}</Project>
+        <Name>Actors</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Components\Components.csproj">
+        <Project>{ba4f7655-f75f-4f95-8441-53dab5cf4403}</Project>
+        <Name>Components</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Items\Items.csproj">
+        <Project>{45de717b-16dc-4176-b315-5829795c4417}</Project>
+        <Name>Items</Name>
+      </ProjectReference>
       <ProjectReference Include="..\Tiles\Tiles.csproj">
         <Project>{c0927277-4646-48bd-9a2a-156e76ce812f}</Project>
         <Name>Tiles</Name>

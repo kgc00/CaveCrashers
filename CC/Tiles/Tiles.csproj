@@ -71,6 +71,20 @@
     <ItemGroup>
         <Dependencies Include="$(OutputPath)\*.dll" Exclude="$(OutputPath)\Unity*.dll;$(OutputPath)\nunit.framework*;" />
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Actors\Actors.csproj">
+        <Project>{905605aa-92a0-4b93-a8a0-2ea4a7d8be7e}</Project>
+        <Name>Actors</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Components\Components.csproj">
+        <Project>{ba4f7655-f75f-4f95-8441-53dab5cf4403}</Project>
+        <Name>Components</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Items\Items.csproj">
+        <Project>{45de717b-16dc-4176-b315-5829795c4417}</Project>
+        <Name>Items</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Target Name="AfterBuild">
         <Copy SourceFiles="@(Dependencies)" DestinationFolder="$(SolutionDir)\..\U.CC\Assets\Plugins" ContinueOnError="true" OverwriteReadOnlyFiles="true" />
         <Copy SourceFiles="@(Dependencies)" DestinationFolder="$(SolutionDir)\Board" ContinueOnError="true" OverwriteReadOnlyFiles="true" />

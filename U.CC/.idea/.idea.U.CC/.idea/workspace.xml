@@ -20,25 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IManipulator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IUsable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/ToolUsageComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/FlowTests/TileFlowTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Location/ILocation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Location/IOccupiable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Location/LocationComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/CC.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/CC.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/Components/Components.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/Components.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/Gameplay.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/Gameplay.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/FlowTests/InventoryFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/FlowTests/MovementFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/MovementFlowTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Components/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Components/Tile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +115,7 @@
       <workItem from="1604213464992" duration="1404000" />
       <workItem from="1604274774911" duration="1932000" />
       <workItem from="1604544421570" duration="1209000" />
-      <workItem from="1604630801414" duration="4379000" />
+      <workItem from="1604630801414" duration="5579000" />
     </task>
     <servers />
   </component>

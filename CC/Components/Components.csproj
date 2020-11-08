@@ -46,6 +46,9 @@
         <Compile Include="src\Collectable\ICollectableController.cs" />
         <Compile Include="src\Inventory\IInventory.cs" />
         <Compile Include="src\Inventory\InventoryComponent.cs" />
+        <Compile Include="src\Location\ILocation.cs" />
+        <Compile Include="src\Location\IOccupiable.cs" />
+        <Compile Include="src\Location\LocationComponent.cs" />
         <Compile Include="src\Movement\IMovable.cs" />
         <Compile Include="src\Movement\IMovementController.cs" />
         <Compile Include="src\Movement\MovementComponent.cs" />

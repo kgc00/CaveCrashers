@@ -100,6 +100,11 @@
             <e p="IInventory.cs" t="Include" />
             <e p="InventoryComponent.cs" t="Include" />
           </e>
+          <e p="Location" t="Include">
+            <e p="ILocation.cs" t="Include" />
+            <e p="IOccupiable.cs" t="Include" />
+            <e p="LocationComponent.cs" t="Include" />
+          </e>
           <e p="Movement" t="Include">
             <e p="IMovable.cs" t="Include" />
             <e p="IMovementController.cs" t="Include" />

@@ -20,25 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd1292c-9593-4b78-84de-81e80117ea51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/src/Tool/IManipulator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/src/Tool/IUsable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/src/Tool/ToolUsageComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/TileFlowTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/src/Location/ILocation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/src/Location/IOccupiable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/src/Location/LocationComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actors/src/Components/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Actors/src/Components/Actor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CC.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CC.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Components.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Components.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay.Tests/Gameplay.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay.Tests/Gameplay.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/InventoryFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/MovementFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/MovementFlowTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Items/src/Base/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Base/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Items/src/Implementations/Rope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Implementations/Rope.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Items/src/Implementations/Shovel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Implementations/Shovel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Items/src/Implementations/Treasure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Implementations/Treasure.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles/Tiles.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tiles/src/Components/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles/src/Components/Tile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Scripts/IntegrationDllTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/IntegrationDllTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gameplay.Tests/Gameplay.Tests.csproj" />
-        <option value="$PROJECT_DIR$/Gameplay/src/Component/MovementComponent.cs" />
-        <option value="$PROJECT_DIR$/Gameplay/src/Component/IMovable.cs" />
-        <option value="$PROJECT_DIR$/Gameplay.Tests/src/MovementTests.cs" />
         <option value="$PROJECT_DIR$/Components/Class1.cs" />
         <option value="$PROJECT_DIR$/Components/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/Components.Tests/Tests.cs" />
@@ -112,6 +100,10 @@
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/CompositeTileFlowTests.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/TileFlowTests.cs" />
+        <option value="$PROJECT_DIR$/Tiles/src/Components/Tile.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Location/IOccupiable.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Location/ILocation.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Location/LocationComponent.cs" />
       </list>
     </option>
   </component>
@@ -173,12 +165,22 @@
       <workItem from="1604213767568" duration="10053000" />
       <workItem from="1604289513421" duration="17062000" />
       <workItem from="1604544492349" duration="733000" />
-      <workItem from="1604634249039" duration="23725000" />
+      <workItem from="1604634249039" duration="29321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="234" />
+    <coverage-tree-state>
+      <expand />
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -286,10 +288,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="278" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604773365483" />
-    <state x="791" y="241" key="RiderGenerateDialog" timestamp="1604778614839">
+    <state x="791" y="241" key="RiderGenerateDialog" timestamp="1604816992294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="791" y="241" key="RiderGenerateDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604778614839" />
+    <state x="791" y="241" key="RiderGenerateDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604816992294" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1604253745321">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

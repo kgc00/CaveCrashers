@@ -2,6 +2,13 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Ckirby_005CDocuments_005CGame_0020Dev_005C2020_005CCaveCrashers_005CCC_005CTiles_005CFSM_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Tiles\FSM.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Tiles\bin\Debug\Tiles.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Board\bin\Debug\Board.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Actors\bin\Debug\Actors.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Gameplay\bin\Debug\Gameplay.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Items\bin\Debug\Items.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\kirby\Documents\Game Dev\2020\CaveCrashers\CC\Components\bin\Debug\Components.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2364b5af_002D975b_002D4a26_002D8352_002D8d693fa100c6/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
