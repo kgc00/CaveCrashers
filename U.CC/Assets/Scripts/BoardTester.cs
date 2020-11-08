@@ -1,6 +1,4 @@
 ﻿using CC.Board.Components;
-using CC.Board.Entities;
-using CC.Board.Systems;
 using Unity.Mathematics;
 using UnityEngine;
 

@@ -1,4 +1,4 @@
-﻿using CC.Board.Systems;
+﻿using CC.Board.Components;
 using CC.Tiles;
 
 public class IntegrationDllTest {

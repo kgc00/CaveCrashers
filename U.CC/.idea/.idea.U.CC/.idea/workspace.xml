@@ -20,51 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CC/Actors/src/Interfaces/IActorController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Movement/IMovementController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/FlowTests/GameFlowTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Gameplay/src/Flow/GameFlow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Gameplay/src/Helpers/GameplayHelpers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IManipulator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IUsable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/ToolUsageComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/FlowTests/TileFlowTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Actors.Tests/Actors.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors.Tests/Actors.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Actors.Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors.Tests/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Actors.Tests/src/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors.Tests/src/ActorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Actors/Actors.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors/Actors.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Actors/src/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/Board.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/Board.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/src/Entities/BoardTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/src/Entities/BoardTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board.Tests/src/Systems/BoardCreatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board.Tests/src/Systems/BoardCreatorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/Board.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Board.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Entities/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Components/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Helpers/Factory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Board/src/Systems/BoardCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/src/Components/BoardCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/CC.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/CC.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components.Tests/src/Inventory/InventoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components.Tests/src/Inventory/InventoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/Components/Components.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/Components.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Collectable/CollectableComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Collectable/CollectorComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Inventory/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Inventory/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Movement/IMovable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Movement/IMovable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Movement/MovementComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Movement/MovementComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/Gameplay.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/Gameplay.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Board.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Gameplay.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Gameplay.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Entities/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Components/Tile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Systems/TileCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Helpers/TileCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/FlowTests/InventoryFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/FlowTests/MovementFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/MovementFlowTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Board.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,16 +56,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" />
         <option value="$PROJECT_DIR$/../CC/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector2Extensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Explorer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +123,7 @@
       <workItem from="1604213464992" duration="1404000" />
       <workItem from="1604274774911" duration="1932000" />
       <workItem from="1604544421570" duration="1209000" />
-      <workItem from="1604630801414" duration="3766000" />
+      <workItem from="1604630801414" duration="4379000" />
     </task>
     <servers />
   </component>

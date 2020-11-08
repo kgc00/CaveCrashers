@@ -49,6 +49,9 @@
         <Compile Include="src\Movement\IMovable.cs" />
         <Compile Include="src\Movement\IMovementController.cs" />
         <Compile Include="src\Movement\MovementComponent.cs" />
+        <Compile Include="src\Tool\IManipulator.cs" />
+        <Compile Include="src\Tool\IUsable.cs" />
+        <Compile Include="src\Tool\ToolUsageComponent.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -94,15 +94,21 @@
           <e p="Collectable" t="Include">
             <e p="CollectorComponent.cs" t="Include" />
             <e p="ICollectable.cs" t="Include" />
+            <e p="ICollectableController.cs" t="Include" />
           </e>
           <e p="Inventory" t="Include">
             <e p="IInventory.cs" t="Include" />
-            <e p="Inventory.cs" t="Include" />
+            <e p="InventoryComponent.cs" t="Include" />
           </e>
           <e p="Movement" t="Include">
             <e p="IMovable.cs" t="Include" />
             <e p="IMovementController.cs" t="Include" />
             <e p="MovementComponent.cs" t="Include" />
+          </e>
+          <e p="Tool" t="Include">
+            <e p="IManipulator.cs" t="Include" />
+            <e p="IUsable.cs" t="Include" />
+            <e p="ToolUsageComponent.cs" t="Include" />
           </e>
         </e>
       </e>
@@ -148,10 +154,14 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="src" t="Include">
-          <e p="FlowTests" t="Include">
-            <e p="GameFlowInitializationTests.cs" t="Include" />
+          <e p="ComponentTests" t="Include">
             <e p="InventoryFlowTests.cs" t="Include" />
             <e p="MovementFlowTests.cs" t="Include" />
+            <e p="ToolUsageFlowTests.cs" t="Include" />
+          </e>
+          <e p="FlowTests" t="Include">
+            <e p="GameFlowInitializationTests.cs" t="Include" />
+            <e p="TileFlowTests.cs" t="Include" />
           </e>
         </e>
       </e>

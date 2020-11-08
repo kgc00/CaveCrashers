@@ -1,14 +1,12 @@
 ﻿using System.Collections.Generic;
 using CC.Actors.Components;
-using CC.Board;
 using CC.Components.Collectable;
 using CC.Gameplay.Flow;
 using CC.Items;
 using NUnit.Framework;
 using Shouldly;
-using UnityEngine;
 
-namespace Gameplay.Tests.FlowTests {
+namespace Gameplay.Tests.ComponentTests {
     [TestFixture]
     public class InventoryFlowTests {
         private GameFlow gameFlow;

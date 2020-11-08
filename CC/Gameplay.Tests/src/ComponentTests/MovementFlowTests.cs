@@ -6,7 +6,7 @@ using NUnit.Framework;
 using Shouldly;
 using UnityEngine;
 
-namespace Gameplay.Tests.FlowTests {
+namespace Gameplay.Tests.ComponentTests {
     [TestFixture]
     public class MovementFlowTests {
         private GameFlow gameFlow;
