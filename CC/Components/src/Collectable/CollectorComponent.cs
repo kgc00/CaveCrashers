@@ -6,7 +6,7 @@ namespace CC.Components.Collectable {
         public IInventory Inventory { get; private set; }
         
         public CollectorComponent(IInventory inventory) {
-            Inventory = inventory;
+            Inventory = inventory ?? throw new ArgumentNullException(nameof(inventory));
         }
 
         public void Collect(ICollectable collectable) {

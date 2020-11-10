@@ -36,6 +36,7 @@
         <e p="bin" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="Board.dll" t="Include" />
+            <e p="Components.dll" t="Include" />
             <e p="FSM.dll" t="Include" />
             <e p="Tiles.dll" t="Include" />
           </e>
@@ -204,7 +205,10 @@
       <e p="Tiles" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive">
           <e p="Debug" t="Include">
+            <e p="Actors.dll" t="Include" />
+            <e p="Components.dll" t="Include" />
             <e p="FSM.dll" t="Include" />
+            <e p="Items.dll" t="Include" />
             <e p="Tiles.dll" t="Include" />
           </e>
         </e>

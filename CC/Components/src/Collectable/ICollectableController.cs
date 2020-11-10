@@ -2,6 +2,6 @@
 
 namespace CC.Components.Collectable {
     public interface ICollectableController {
-        void Collect(IInventory inventory, ICollectable collectable);
+        void Collect(IInventory collector, IInventory source, ICollectable collectable);
     }
 }

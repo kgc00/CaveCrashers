@@ -5,7 +5,6 @@ using UnityEngine;
 namespace CC.Components.Location {
     public class LocationComponent : ILocation {
         public void Enter(IMovable movable) { }
-
         public void Exit(IMovable movable) { }
         public IOccupiable Location { get; }
 

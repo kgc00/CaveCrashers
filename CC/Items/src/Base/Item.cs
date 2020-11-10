@@ -1,4 +1,5 @@
 ﻿using CC.Components.Collectable;
+using CC.Components.Location;
 using CC.Components.Tool;
 
 namespace CC.Items.Base {
@@ -7,6 +8,6 @@ namespace CC.Items.Base {
         public abstract string Name { get; set; }
         public abstract string ImagePath { get; set; }
         public abstract void Collect();
-        public abstract void Use(IManipulator tool);
+        public abstract void Use(IManipulator user, ILocation location, ITarget target);
     }
 }

@@ -20,17 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd1292c-9593-4b78-84de-81e80117ea51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/src/Location/ILocation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/src/Location/IOccupiable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/src/Location/LocationComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CC.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CC.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Components.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Components.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.Tests/Tiles.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles/Tiles.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles/src/Components/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles/src/Components/Tile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actors/src/Components/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Actors/src/Components/Actor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Collectable/CollectorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Collectable/CollectorComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Collectable/ICollectableController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Collectable/ICollectableController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Inventory/IInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Inventory/IInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Inventory/InventoryComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Inventory/InventoryComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Location/IOccupiable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Location/IOccupiable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Location/LocationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Location/LocationComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Tool/IManipulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Tool/IManipulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Tool/IUsable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Tool/IUsable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/src/Tool/ToolUsageComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/src/Tool/ToolUsageComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gameplay/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gameplay/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gameplay/src/Flow/GameFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/src/Flow/GameFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Items/src/Base/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Base/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Items/src/Implementations/Rope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Implementations/Rope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Items/src/Implementations/Shovel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Implementations/Shovel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Items/src/Implementations/Treasure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Items/src/Implementations/Treasure.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Tiles.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Components/Class1.cs" />
         <option value="$PROJECT_DIR$/Components/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/Components.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/Components.Tests/src/MovementTests.cs" />
@@ -65,7 +78,6 @@
         <option value="$PROJECT_DIR$/Components/src/Collectable/CollectableComponent.cs" />
         <option value="$PROJECT_DIR$/Items/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/Items.Tests/Tests.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Inventory/IInventory.cs" />
         <option value="$PROJECT_DIR$/Components/src/Inventory/Inventory.cs" />
         <option value="$PROJECT_DIR$/Board/src/Components/Board.cs" />
         <option value="$PROJECT_DIR$/Board/src/Components/BoardCreator.cs" />
@@ -79,31 +91,33 @@
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/GameFlowTests.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/MovementFlowTests.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/GameFlowInitializationTests.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Inventory/InventoryComponent.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Collectable/CollectorComponent.cs" />
         <option value="$PROJECT_DIR$/Components.Tests/src/Inventory/InventoryTests.cs" />
         <option value="$PROJECT_DIR$/Actors.Tests/src/ActorTests.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Collectable/ICollectableController.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/InventoryFlowTests.cs" />
-        <option value="$PROJECT_DIR$/Gameplay/src/Flow/GameFlow.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/CompositeFlowTests.cs" />
         <option value="$PROJECT_DIR$/Components/src/Tool/User.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Tool/IManipulator.cs" />
+        <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/ToolUsageFlowTests.cs" />
+        <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/CompositeTileFlowTests.cs" />
+        <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/TileFlowTests.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Location/ILocation.cs" />
+        <option value="$PROJECT_DIR$/Tiles/src/Components/Tile.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Location/LocationComponent.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Location/IOccupiable.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Collectable/ICollectableController.cs" />
+        <option value="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Inventory/IInventory.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Inventory/InventoryComponent.cs" />
+        <option value="$PROJECT_DIR$/Gameplay/src/Flow/GameFlow.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Collectable/CollectorComponent.cs" />
+        <option value="$PROJECT_DIR$/Actors/src/Components/Actor.cs" />
+        <option value="$PROJECT_DIR$/Items/src/Base/Item.cs" />
         <option value="$PROJECT_DIR$/Components/src/Tool/IUsable.cs" />
         <option value="$PROJECT_DIR$/Components/src/Tool/ToolUsageComponent.cs" />
-        <option value="$PROJECT_DIR$/Actors/src/Components/Actor.cs" />
+        <option value="$PROJECT_DIR$/Components/src/Tool/IManipulator.cs" />
         <option value="$PROJECT_DIR$/Items/src/Implementations/Rope.cs" />
         <option value="$PROJECT_DIR$/Items/src/Implementations/Shovel.cs" />
         <option value="$PROJECT_DIR$/Items/src/Implementations/Treasure.cs" />
-        <option value="$PROJECT_DIR$/Items/src/Base/Item.cs" />
-        <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/ToolUsageFlowTests.cs" />
-        <option value="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" />
-        <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/CompositeTileFlowTests.cs" />
-        <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/TileFlowTests.cs" />
-        <option value="$PROJECT_DIR$/Tiles/src/Components/Tile.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Location/IOccupiable.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Location/ILocation.cs" />
-        <option value="$PROJECT_DIR$/Components/src/Location/LocationComponent.cs" />
+        <option value="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" />
       </list>
     </option>
   </component>
@@ -165,7 +179,7 @@
       <workItem from="1604213767568" duration="10053000" />
       <workItem from="1604289513421" duration="17062000" />
       <workItem from="1604544492349" duration="733000" />
-      <workItem from="1604634249039" duration="29321000" />
+      <workItem from="1604634249039" duration="34897000" />
     </task>
     <servers />
   </component>
@@ -288,10 +302,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="278" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604773365483" />
-    <state x="791" y="241" key="RiderGenerateDialog" timestamp="1604816992294">
+    <state x="791" y="241" key="RiderGenerateDialog" timestamp="1604865650353">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="791" y="241" key="RiderGenerateDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604816992294" />
+    <state x="791" y="241" key="RiderGenerateDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604865650353" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1604253745321">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -300,9 +314,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="637" y="273" width="646" height="534" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604796198197" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604795810025">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604866088850">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604795810025" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604866088850" />
   </component>
 </project>

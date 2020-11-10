@@ -41,9 +41,19 @@ namespace CC.Gameplay.Flow {
             movable.MovementComponent.Move(dir);
         }
 
-        public void Collect(IInventory inventory, ICollectable collectable) {
-            if (!inventory.Pickups.Contains(collectable))
-                inventory.Pickups.Add(collectable);
+        #region Inventory Systems
+        
+        public void Collect(IInventory collector, IInventory source, ICollectable collectable) {
+            source.Discard(collectable);
+            collector.Collect(collectable);
         }
+
+        public void CollectMany(IInventory collector, IInventory source, List<ICollectable> collectables) {
+            var copy = new List<ICollectable>(collectables);
+
+            foreach (var collectable in copy) Collect(collector, source, collectable);
+        }
+
+        #endregion
     }
 }

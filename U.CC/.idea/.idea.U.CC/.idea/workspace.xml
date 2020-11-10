@@ -20,17 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Location/ILocation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Location/IOccupiable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CC/Components/src/Location/LocationComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/CC.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/CC.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/Components.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/Components.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles.Tests/Tiles.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/Tiles.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Tiles/src/Components/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Tiles/src/Components/Tile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Collectable/CollectorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Collectable/CollectorComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Collectable/ICollectableController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Collectable/ICollectableController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Inventory/IInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Inventory/IInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Inventory/InventoryComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Inventory/InventoryComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Location/IOccupiable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Location/IOccupiable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Location/LocationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Location/LocationComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Tool/IManipulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IManipulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Tool/IUsable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IUsable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Tool/ToolUsageComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/ToolUsageComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/src/Flow/GameFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/src/Flow/GameFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
