@@ -9,8 +9,8 @@ namespace CC.Gameplay.Helpers {
         }
 
         public static bool IsOutOfBounds(Vector2 desiredPosition, int[,] bounds) {
-            if (Math.Abs(desiredPosition.x) >= bounds.GetLength(0)) return true;
-            if (Math.Abs(desiredPosition.y) >= bounds.GetLength(1)) return true;
+            if (desiredPosition.x >= bounds.GetLength(0) || desiredPosition.x < 0) return true;
+            if (desiredPosition.y >= bounds.GetLength(1)|| desiredPosition.y < 0) return true;
             return false;
         }
     }

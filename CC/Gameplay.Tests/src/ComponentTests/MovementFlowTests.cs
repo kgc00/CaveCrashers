@@ -20,10 +20,10 @@ namespace Gameplay.Tests.ComponentTests {
 
         public static IEnumerable<TestCaseData> LegalMoveCasesSource {
             get {
-                yield return new TestCaseData(Vector2.zero, Vector2.right);
-                yield return new TestCaseData(Vector2.zero, Vector2.left);
-                yield return new TestCaseData(Vector2.zero, Vector2.up);
-                yield return new TestCaseData(Vector2.zero, Vector2.down);
+                yield return new TestCaseData(Vector2.one, Vector2.right);
+                yield return new TestCaseData(Vector2.one, Vector2.left);
+                yield return new TestCaseData(Vector2.one, Vector2.up);
+                yield return new TestCaseData(Vector2.one, Vector2.down);
             }
         }
 
@@ -41,9 +41,9 @@ namespace Gameplay.Tests.ComponentTests {
         public static IEnumerable<TestCaseData> IllegalMoveCasesSource {
             get {
                 yield return new TestCaseData(new Vector2(Factory.DefaultSize - 1, 0), Vector2.right);
-                yield return new TestCaseData(new Vector2(-Factory.DefaultSize + 1, 0), Vector2.left);
+                yield return new TestCaseData(new Vector2(0, 0), Vector2.left);
                 yield return new TestCaseData(new Vector2(0, Factory.DefaultSize - 1), Vector2.up);
-                yield return new TestCaseData(new Vector2(0, -Factory.DefaultSize + 1), Vector2.down);
+                yield return new TestCaseData(new Vector2(0, 0), Vector2.down);
             }
         }
 

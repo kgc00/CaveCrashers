@@ -20,29 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd1292c-9593-4b78-84de-81e80117ea51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/GameFlowTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/GameFlowTester.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/Actors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Actors.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Components.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/Items.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Items.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Components.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Components.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay/Actors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/Actors.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay/Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/Components.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay/Gameplay.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/Gameplay.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay/Items.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/Items.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gameplay/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/MovementFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/MovementFlowTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gameplay/src/Helpers/GameplayHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gameplay/src/Helpers/GameplayHelpers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Actors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Actors.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Components.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Items.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Items.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/BoardTester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Scripts/Explorer/Explorer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/Explorer/Explorer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Scripts/Input/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Scripts/Input/InputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Gameplay.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../U.CC/Assets/Plugins/Gameplay.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Components.Tests/src/Movement/SampleMovable.cs" />
         <option value="$PROJECT_DIR$/Components.Tests/src/Movement/MovementTests.cs" />
         <option value="$PROJECT_DIR$/Actors/src/Actor.cs" />
         <option value="$PROJECT_DIR$/Components.Tests/src/Collectable/CollectableTests.cs" />
@@ -82,7 +63,6 @@
         <option value="$PROJECT_DIR$/Actors/src/Interfaces/IActorController.cs" />
         <option value="$PROJECT_DIR$/Actors.Tests/src/Tests.cs" />
         <option value="$PROJECT_DIR$/Board/src/Helpers/Factory.cs" />
-        <option value="$PROJECT_DIR$/Gameplay/src/Helpers/GameplayHelpers.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/GameFlowTests.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/MovementFlowTests.cs" />
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/FlowTests/GameFlowInitializationTests.cs" />
@@ -116,6 +96,8 @@
         <option value="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" />
         <option value="$PROJECT_DIR$/Components/Components.csproj" />
         <option value="$PROJECT_DIR$/Gameplay/Gameplay.csproj" />
+        <option value="$PROJECT_DIR$/Gameplay/src/Helpers/GameplayHelpers.cs" />
+        <option value="$PROJECT_DIR$/Gameplay.Tests/src/ComponentTests/MovementFlowTests.cs" />
       </list>
     </option>
   </component>
@@ -178,7 +160,7 @@
       <workItem from="1604289513421" duration="17062000" />
       <workItem from="1604544492349" duration="733000" />
       <workItem from="1604634249039" duration="35107000" />
-      <workItem from="1605324331506" duration="2656000" />
+      <workItem from="1605324331506" duration="3256000" />
     </task>
     <servers />
   </component>
@@ -313,9 +295,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="637" y="273" width="646" height="534" key="find.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604796198197" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604866088850">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1605333320440">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604866088850" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605333320440" />
   </component>
 </project>
