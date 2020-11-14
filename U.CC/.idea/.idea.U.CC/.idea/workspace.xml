@@ -20,31 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3985d15-9638-4a5e-bdbb-6c30542b123b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameFlowTester.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameFlowTester.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/.idea/.idea.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Actors/src/Components/Actor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/Actors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Actors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Components.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Board/Items.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Items.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/Board/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Board/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Collectable/CollectorComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Collectable/CollectorComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Collectable/ICollectableController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Collectable/ICollectableController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Inventory/IInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Inventory/IInventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Inventory/InventoryComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Inventory/InventoryComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Location/IOccupiable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Location/IOccupiable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Location/LocationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Location/LocationComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Tool/IManipulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IManipulator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Tool/IUsable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/IUsable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Components/src/Tool/ToolUsageComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/src/Tool/ToolUsageComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/InventoryFlowTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay.Tests/src/ComponentTests/ToolUsageFlowTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Components/Components.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Components/Components.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Actors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Actors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Components.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Gameplay.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Gameplay.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Items.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Items.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CC/Gameplay/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/Tiles.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Gameplay/src/Flow/GameFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Gameplay/src/Flow/GameFlow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Base/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Rope.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Shovel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CC/Items/src/Implementations/Treasure.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.U.CC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Board.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Board.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Actors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Actors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Components.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Items.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Items.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Tiles.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/InputReader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/594C9FB9-B516-447B-9A5F-A7C8D5E4BCA7/3b/bce52990/BoardCreator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9DBC139F-C0E9-46C4-A0ED-FA135E48A833/9e/e4d40ace/BoardCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AFC41680-B2AC-4524-85DB-A690A63A87FD/97/6d2ac514/Factory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FFA57BB9-7EA0-41D6-9006-904ECB9D6ABA/ed/0912298d/GameFlow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,11 +67,12 @@
         <option value="$PROJECT_DIR$/../.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector2Extensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TileDebug.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Explorer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntegrationDllTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoardTester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Input/InputReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameFlowTester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Explorer/Explorer.cs" />
       </list>
     </option>
   </component>
@@ -130,6 +131,7 @@
       <workItem from="1604274774911" duration="1932000" />
       <workItem from="1604544421570" duration="1209000" />
       <workItem from="1604630801414" duration="5579000" />
+      <workItem from="1605327597932" duration="1193000" />
     </task>
     <servers />
   </component>
@@ -154,9 +156,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="784" y="241" key="RiderGenerateDialog" timestamp="1604630921164">
+    <state x="784" y="241" key="RiderGenerateDialog" timestamp="1605327956124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="784" y="241" key="RiderGenerateDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604630921164" />
+    <state x="784" y="241" key="RiderGenerateDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605327956124" />
   </component>
 </project>

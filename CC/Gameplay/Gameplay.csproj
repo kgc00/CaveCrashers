@@ -67,12 +67,12 @@
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-         Other similar extension points exist, see Microsoft.Common.targets.
-    <Target Name="BeforeBuild">
-    </Target>
+
+    <ItemGroup>
+        <Dependencies Include="$(OutputPath)\*.dll" Exclude="$(OutputPath)\Unity*.dll;$(OutputPath)\nunit.framework*;" />
+    </ItemGroup>
     <Target Name="AfterBuild">
+        <Copy SourceFiles="@(Dependencies)" DestinationFolder="$(SolutionDir)\..\U.CC\Assets\Plugins" ContinueOnError="true" OverwriteReadOnlyFiles="true" />
     </Target>
-    -->
 
 </Project>

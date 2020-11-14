@@ -11,6 +11,7 @@
           <e p="Explorer" t="Include">
             <e p="Explorer.cs" t="Include" />
           </e>
+          <e p="GameFlowTester.cs" t="Include" />
           <e p="Input" t="Include">
             <e p="CC.Input.asmdef" t="Include" />
             <e p="InputReader.cs" t="Include" />

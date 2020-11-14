@@ -85,7 +85,11 @@
       </e>
       <e p="CC.sln" t="IncludeFlat" />
       <e p="Components" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="Components.dll" t="Include" />
+          </e>
+        </e>
         <e p="Components.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
@@ -113,6 +117,7 @@
           </e>
           <e p="Tool" t="Include">
             <e p="IManipulator.cs" t="Include" />
+            <e p="ITarget.cs" t="Include" />
             <e p="IUsable.cs" t="Include" />
             <e p="ToolUsageComponent.cs" t="Include" />
           </e>
@@ -136,7 +141,17 @@
         </e>
       </e>
       <e p="Gameplay" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="Actors.dll" t="Include" />
+            <e p="Board.dll" t="Include" />
+            <e p="Components.dll" t="Include" />
+            <e p="FSM.dll" t="Include" />
+            <e p="Gameplay.dll" t="Include" />
+            <e p="Items.dll" t="Include" />
+            <e p="Tiles.dll" t="Include" />
+          </e>
+        </e>
         <e p="Gameplay.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
