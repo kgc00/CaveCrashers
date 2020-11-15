@@ -10,8 +10,9 @@ namespace CC.Components.Collectable {
         }
 
         public void Collect(ICollectable collectable) {
-            collectable.Collect();
             Inventory.Pickups.Add(collectable);
+            collectable.Inventory = Inventory;
+            collectable.Collect();
         }
     }
 }

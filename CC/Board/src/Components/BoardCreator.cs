@@ -12,6 +12,7 @@ namespace CC.Board.Components {
         public Components.Board Create() {
             var nodes = NodesFromModel();
             Components.Board board = new Components.Board(nodes);
+            Locator.AssignNodes(board.Nodes);
             return board;
         }
 

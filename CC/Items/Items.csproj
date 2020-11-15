@@ -32,6 +32,9 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="FSM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Tiles\FSM.dll</HintPath>
+        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Xml" />
@@ -50,6 +53,10 @@
       <ProjectReference Include="..\Components\Components.csproj">
         <Project>{ba4f7655-f75f-4f95-8441-53dab5cf4403}</Project>
         <Name>Components</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Tiles\Tiles.csproj">
+        <Project>{c0927277-4646-48bd-9a2a-156e76ce812f}</Project>
+        <Name>Tiles</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

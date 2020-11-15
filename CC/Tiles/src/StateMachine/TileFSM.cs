@@ -5,11 +5,16 @@ using FSM.States;
 
 namespace CC.Tiles {
     public class TileFSM : IFiniteStateMachine<TileState> {
-        public TileFSM(Type startingType = null) {
+        public Type ExploredStateType { get; private set; }
+
+        public TileFSM(Type startingType = null, Type exploredType = null) {
             InitializeStates();
-            ChangeState(States[startingType == null ? typeof(Unexplored) : TypeEnforcer.ExploredStateTypeEnforcer(startingType)]);
+            ExploredStateType = exploredType == null
+                ? Randomizer.ExploredTileType()
+                : TypeEnforcer.TileStateEnforcer(startingType);
+            ChangeState(States[startingType == null ? typeof(Unexplored) : TypeEnforcer.TileStateEnforcer(startingType)]);
         }
-        
+
         public void InitializeStates() {
             States = new Dictionary<Type, IEntityState<TileState>> {
                 { typeof(Unexplored), new Unexplored(this) },
@@ -30,5 +35,7 @@ namespace CC.Tiles {
 
         public Dictionary<Type, IEntityState<TileState>> States { get; private set; }
         public IEntityState<TileState> CurrentState { get; private set; }
+        
+        public void HandleItemUsage(){}
     }
 }

@@ -12,7 +12,7 @@ namespace Gameplay.Tests.FlowTests {
         public void Setup() {
             gameFlow = new GameFlow();
             actor = new Actor();
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
         }
     }
 }

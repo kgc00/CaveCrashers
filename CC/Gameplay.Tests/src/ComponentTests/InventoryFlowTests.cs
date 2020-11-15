@@ -21,7 +21,6 @@ namespace Gameplay.Tests.ComponentTests {
 
         public static IEnumerable<TestCaseData> ItemSource {
             get {
-                yield return new TestCaseData(null);
                 yield return new TestCaseData(new Rope());
                 yield return new TestCaseData(new Shovel());
                 yield return new TestCaseData(new Treasure());
@@ -31,7 +30,7 @@ namespace Gameplay.Tests.ComponentTests {
         [TestCaseSource(nameof(ItemSource))]
         public void Does_Obtain_Items(ICollectable item) {
             actor = new Actor();
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
             var inventoryComponent = new InventoryComponent(new List<ICollectable> {item});
 
             gameFlow.Collect(actor.InventoryComponent, inventoryComponent, item);
@@ -42,7 +41,7 @@ namespace Gameplay.Tests.ComponentTests {
         [TestCaseSource(nameof(ItemSource))]
         public void Does_Not_Obtain_Items_Twice(ICollectable item) {
             actor = new Actor();
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
             var inventoryComponent = new InventoryComponent(new List<ICollectable> {item});
             var inventoryComponent2 = new InventoryComponent(new List<ICollectable> {item});
 
@@ -50,6 +49,23 @@ namespace Gameplay.Tests.ComponentTests {
             gameFlow.Collect(actor.InventoryComponent, inventoryComponent2, item);
             
             actor.InventoryComponent.Pickups.ShouldBeUnique();
+        }
+        
+        public static IEnumerable<TestCaseData> EdgecaseItemSource {
+            get {
+                yield return new TestCaseData(null);
+            }
+        }
+        
+        [TestCaseSource(nameof(EdgecaseItemSource))]
+        public void Handles_Edgecase_Input(ICollectable item) {
+            actor = new Actor();
+            gameFlow.AddActor(actor);
+            var inventoryComponent = new InventoryComponent(new List<ICollectable> {item});
+
+            gameFlow.Collect(actor.InventoryComponent, inventoryComponent, item);
+            
+            actor.InventoryComponent.Pickups.ShouldNotContain(item);
         }
         
         public static IEnumerable<TestCaseData> ManyItemSource {
@@ -64,7 +80,7 @@ namespace Gameplay.Tests.ComponentTests {
         [TestCaseSource(nameof(ManyItemSource))]
         public void Does_Obtain_Many_Items(List<ICollectable> items) {
             actor = new Actor();
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
             var inventoryComponent = new InventoryComponent(items);
 
             gameFlow.CollectMany(actor.InventoryComponent, inventoryComponent, items);
@@ -76,7 +92,7 @@ namespace Gameplay.Tests.ComponentTests {
         [TestCaseSource(nameof(ManyItemSource))]
         public void Does_Not_Obtain_Many_Items_Twice(List<ICollectable> items) {
             actor = new Actor();
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
             var inventoryComponent = new InventoryComponent(items);
             var inventoryComponent2 = new InventoryComponent(items);
 

@@ -26,7 +26,7 @@ namespace CC.Board.Components {
             for (int i = 0; i < states.GetLength(0); i++) {
                 for (int j = 0; j < states.GetLength(1); j++) {
                     if (states[i, j] == null) states[i, j] = typeof(Unexplored);
-                    else states[i, i] = TypeEnforcer.ExploredStateTypeEnforcer(states[i, j]);
+                    else states[i, i] = TypeEnforcer.TileStateEnforcer(states[i, j]);
                 }
             }
 

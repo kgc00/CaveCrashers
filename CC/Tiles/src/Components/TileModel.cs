@@ -10,7 +10,7 @@ namespace CC.Tiles {
         public TileModel(Vector2 position, Type exploredStateType) {
             Position = position;
             ImagePath = "";
-            StartingStateType = TypeEnforcer.ExploredStateTypeEnforcer(exploredStateType);
+            StartingStateType = TypeEnforcer.TileStateEnforcer(exploredStateType);
         }
     }
 }

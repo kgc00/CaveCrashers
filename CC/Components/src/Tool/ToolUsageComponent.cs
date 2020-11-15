@@ -9,7 +9,8 @@ namespace CC.Components.Tool {
             Inventory = inventory  ?? throw new ArgumentNullException(nameof(inventory));
         }
         
-        public void Use(IUsable tool, ILocation location, ITarget target) {
+        public void Use(IUsable tool, ILocation location, ILocation target) {
+            Console.WriteLine("Using");
             tool.Use(this, location, target);
         }
     }

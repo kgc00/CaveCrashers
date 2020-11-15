@@ -1,5 +1,6 @@
 ﻿using CC.Actors.Components;
 using CC.Gameplay.Flow;
+using CC.Tiles;
 using NUnit.Framework;
 using Shouldly;
 using UnityEngine;
@@ -18,11 +19,23 @@ namespace Gameplay.Tests.FlowTests {
 
         [Test]
         public void Does_Add_Actors() {
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
 
             gameFlow.Actors.ShouldContain(actor);
         }
 
+        // [Test]
+        // public void Does_Add_Actors_To_Location() {
+        //     gameFlow.AddActor(actor);
+        //
+        //     gameFlow.Board.TileFromPosition(actor.Position).Occupants.ShouldContain(actor);
+        // }
+        
+        [Test]
+        public void Locator_Does_Initialize() {
+            Locator.Nodes.ShouldBe(gameFlow.Board.Nodes);
+        }
+        
         // TODO test ctorp for gameflow
     }
 }

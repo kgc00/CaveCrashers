@@ -100,6 +100,10 @@
         <Project>{45de717b-16dc-4176-b315-5829795c4417}</Project>
         <Name>Items</Name>
       </ProjectReference>
+      <ProjectReference Include="..\Tiles\Tiles.csproj">
+        <Project>{c0927277-4646-48bd-9a2a-156e76ce812f}</Project>
+        <Name>Tiles</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

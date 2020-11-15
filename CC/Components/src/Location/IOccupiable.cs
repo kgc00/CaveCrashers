@@ -6,7 +6,9 @@ using UnityEngine;
 namespace CC.Components.Location {
     public interface IOccupiable {
         Vector2 Position { get; }
-        List<IMovable> Occupants { get; set; }
+        List<IMovable> Occupants { get; }
+        void AddOccupant(IMovable occupant);
+        void RemoveOccupant(IMovable occupant);
         LocationComponent LocationComponent { get; }
         InventoryComponent Inventory { get; }
     }

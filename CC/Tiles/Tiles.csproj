@@ -47,6 +47,8 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="src\Components\Tile.cs" />
         <Compile Include="src\Components\TileModel.cs" />
+        <Compile Include="src\Helpers\Locator.cs" />
+        <Compile Include="src\Helpers\Randomizer.cs" />
         <Compile Include="src\Helpers\TileCreator.cs" />
         <Compile Include="src\Helpers\TypeEnforcer.cs" />
         <Compile Include="src\StateMachine\TileFSM.cs" />
@@ -79,10 +81,6 @@
       <ProjectReference Include="..\Components\Components.csproj">
         <Project>{ba4f7655-f75f-4f95-8441-53dab5cf4403}</Project>
         <Name>Components</Name>
-      </ProjectReference>
-      <ProjectReference Include="..\Items\Items.csproj">
-        <Project>{45de717b-16dc-4176-b315-5829795c4417}</Project>
-        <Name>Items</Name>
       </ProjectReference>
     </ItemGroup>
     <Target Name="AfterBuild">

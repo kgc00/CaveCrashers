@@ -30,11 +30,22 @@ namespace Gameplay.Tests.ComponentTests {
         [TestCaseSource(nameof(LegalMoveCasesSource))]
         public void Does_Move_Movables(Vector2 position, Vector2 dir) {
             actor = new Actor(position);
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
 
             gameFlow.Move(actor, dir);
 
             actor.Position.ShouldBe(position + dir);
+        }
+
+        [TestCaseSource(nameof(LegalMoveCasesSource))]
+        public void Does_Add_Movable_To_New_Location(Vector2 position, Vector2 dir) {
+            actor = new Actor(position);
+            gameFlow.AddActor(actor);
+            var desiredPos = position + dir;
+
+            gameFlow.Move(actor, dir);
+
+            gameFlow.Board.TileFromPosition(desiredPos).Occupants.ShouldContain(actor);
         }
 
 
@@ -50,7 +61,7 @@ namespace Gameplay.Tests.ComponentTests {
         [TestCaseSource(nameof(IllegalMoveCasesSource))]
         public void Does_Not_Make_Illegal_Moves(Vector2 position, Vector2 dir) {
             actor = new Actor(position);
-            gameFlow.Actors.Add(actor);
+            gameFlow.AddActor(actor);
 
             Should.NotThrow(() => gameFlow.Move(actor, dir));
             actor.Position.ShouldBe(position);
