@@ -4,6 +4,7 @@ using CC.Components.Collectable;
 using CC.Components.Inventory;
 using CC.Components.Location;
 using CC.Components.Movement;
+using CC.Components.Tool;
 using UnityEngine;
 
 namespace CC.Tiles{
@@ -25,26 +26,29 @@ namespace CC.Tiles{
         }
 
         public LocationComponent LocationComponent { get; }
+
         public string ImagePath { get; private set; }
         public InventoryComponent Inventory { get; set; }
         public TileFSM StateMachine { get; set; }
-        public Type StartingStateType { get; private set; }
-        public Type ExploredStateType { get; private set; }
+        public Type StartingStateType { get; set; }
+        public Type ExploredStateType { get; set; }
 
         public Tile(TileModel model) {
             Position = model.Position;
             Occupants = new List<IMovable>();
             LocationComponent = new LocationComponent(this);
+            Inventory = new InventoryComponent();
             StartingStateType = TypeEnforcer.TileStateEnforcer(model.StartingStateType);
-            StateMachine = new TileFSM(StartingStateType, ExploredStateType);
+            StateMachine = new TileFSM(this, startingType: StartingStateType, exploredType: ExploredStateType);
         }
         
-        public Tile(TileModel model, List<IMovable> occupants) {
+        public Tile(TileModel model, List<IMovable> occupants, List<ICollectable> pickups) {
             Position = model.Position;
             Occupants = new List<IMovable>(occupants);
             LocationComponent = new LocationComponent(this);
+            Inventory = new InventoryComponent(pickups);
             StartingStateType = TypeEnforcer.TileStateEnforcer(model.StartingStateType);
-            StateMachine = new TileFSM(StartingStateType, ExploredStateType);
+            StateMachine = new TileFSM(this, startingType: StartingStateType, exploredType: ExploredStateType);
         }
     }
 }

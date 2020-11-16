@@ -6,10 +6,14 @@ using Shouldly;
 namespace Tiles.Tests.Helpers {
     public class HelperTests {
         [TestCase(typeof(string)),
-         TestCase(typeof(TileFSM)),
-         TestCase(null)]
+         TestCase(typeof(TileFSM))]
         public void TypeEnforcer_Handles_Invalid_Input(Type inputType) {
             Should.Throw<ArgumentException>(() => TypeEnforcer.TileStateEnforcer(inputType));
+        }
+        
+        [Test]
+        public void TypeEnforcer_Handles_Null() {
+            Should.NotThrow(() => TypeEnforcer.TileStateEnforcer(null));
         }
 
         [Test]

@@ -3,6 +3,8 @@ using CC.Components.Inventory;
 using CC.Components.Location;
 using CC.Components.Tool;
 using CC.Items.Base;
+using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace CC.Items {
     public class Treasure : Item {
@@ -13,6 +15,7 @@ namespace CC.Items {
 
         public override void Use(IManipulator user, ILocation source, ILocation target) {
             Console.WriteLine("Used Treasure");
+           
         }
 
         public Treasure(IInventory inventory) : base(inventory) { }

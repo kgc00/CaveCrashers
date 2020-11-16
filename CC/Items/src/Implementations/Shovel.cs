@@ -18,8 +18,7 @@ namespace CC.Items {
             Tile sourceTile = Locator.FromPosition(source.Location.Position);
             Tile targetTile = Locator.FromPosition(target.Location.Position);
             
-            Console.WriteLine(sourceTile.StateMachine.CurrentState.ToString());
-            Console.WriteLine(sourceTile.StartingStateType.ToString());
+            targetTile.StateMachine.HandleItemEffects(this, source, target, user);
         }
 
         public Shovel(IInventory inventory) : base(inventory) { }

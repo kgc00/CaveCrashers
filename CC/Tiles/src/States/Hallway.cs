@@ -2,7 +2,7 @@
 
  namespace CC.Tiles {
     public class Hallway : TileState {
-        public Hallway(IFiniteStateMachine<TileState> stateMachine) : base(stateMachine) { }
+        public Hallway(TileFSM stateMachine) : base(stateMachine) { }
         public override string ImagePath { get; }
     }
 }

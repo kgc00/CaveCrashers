@@ -237,6 +237,7 @@
             <e p="TileModel.cs" t="Include" />
           </e>
           <e p="Helpers" t="Include">
+            <e p="Identifier.cs" t="Include" />
             <e p="Locator.cs" t="Include" />
             <e p="Randomizer.cs" t="Include" />
             <e p="TileCreator.cs" t="Include" />
@@ -252,6 +253,7 @@
             <e p="Hallway.cs" t="Include" />
             <e p="Intersection.cs" t="Include" />
             <e p="Pit.cs" t="Include" />
+            <e p="PitAndRope.cs" t="Include" />
             <e p="TileState.cs" t="Include" />
             <e p="Unexplored.cs" t="Include" />
           </e>

@@ -7,6 +7,5 @@ namespace CC.Components.Location {
         void Enter(IMovable movable);
         void Exit(IMovable movable);
         IOccupiable Location { get; }
-        void HandleItemUsage(IUsable tool);
     }
 }

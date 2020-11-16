@@ -14,8 +14,13 @@ namespace CC.Items {
 
         public override void Use(IManipulator user, ILocation source, ILocation target) {            
             Console.WriteLine("Used Rope");
+
             Inventory.Discard(this);
-            Tile tile = Locator.FromPosition(target.Location.Position);
+            target.Location.Inventory.Collect(this);
+
+            Tile targetTile = Locator.FromPosition(target.Location.Position);
+            
+            targetTile.StateMachine.HandleItemEffects(this, source, target, user);
         }
 
         public Rope(IInventory inventory) : base(inventory) { }

@@ -5,6 +5,7 @@ using CC.Components.Location;
 using CC.Components.Tool;
 using CC.Gameplay.Flow;
 using CC.Items;
+using CC.Tiles;
 using Moq;
 using NUnit.Framework;
 using Shouldly;
@@ -47,25 +48,53 @@ namespace Gameplay.Tests.ComponentTests {
         }
 
         [Test]
-        public void Shovel_Usage_Updates_Unexplored_To_Starting_State() {
+        public void Shovel_Usage_Updates_Target_Unexplored_To_Starting_State() {
             Shovel shovel = new Shovel();
-            var source = gameFlow.Board.TileFromPosition(actor.Position).LocationComponent;
-            var target = gameFlow.Board.TileFromPosition(actor.Position+Vector2.right).LocationComponent;
+            var tileSource = gameFlow.Board.TileFromPosition(actor.Position);
+            var source = tileSource.LocationComponent;
+            var tileTarget = gameFlow.Board.TileFromPosition(actor.Position+Vector2.right);
+            var target = tileTarget.LocationComponent;
             actor.CollectorComponent.Collect(shovel);
             actor.ToolUsageComponent.Use(shovel, source, target);
             
-            // tile.StateMachine.CurrentState.GetType().ShouldBe();
+            tileTarget.StateMachine.CurrentState.GetType().ShouldBe(tileTarget.ExploredStateType);
         }
+        
         [Test]
-        public void Rope_Usage_Affects_Room_State() {
+        public void Rope_Usage_Updates_Pit() {
             Rope rope = new Rope();
             var tile = gameFlow.Board.TileFromPosition(actor.Position);
             var source = tile.LocationComponent;
             var target = source;
+            tile.StateMachine.ChangeState(tile.StateMachine.States[typeof(Pit)]);
             actor.CollectorComponent.Collect(rope);
             actor.ToolUsageComponent.Use(rope, source, target);
             
-            // tile.StateMachine.CurrentState.GetType().ShouldBe();
+            tile.StateMachine.CurrentState.GetType().ShouldBe(typeof(PitAndRope));
+        }
+        
+        [Test]
+        public void Rope_Usage_Adds_Rope_To_Pit() {
+            Rope rope = new Rope();
+            var tile = gameFlow.Board.TileFromPosition(actor.Position);
+            var source = tile.LocationComponent;
+            var target = source;
+            tile.StateMachine.ChangeState(tile.StateMachine.States[typeof(Pit)]);
+            actor.CollectorComponent.Collect(rope);
+            actor.ToolUsageComponent.Use(rope, source, target);
+            
+            target.Location.Inventory.Pickups.ShouldContain(rope);
+        }
+        
+        [Test]
+        public void Rope_Collection_Updates_PitAndRope() {
+            Rope rope = new Rope();
+            var tile = gameFlow.Board.TileFromPosition(actor.Position);
+            tile.Inventory.Collect(rope);
+            tile.StateMachine.ChangeState(tile.StateMachine.States[typeof(PitAndRope)]);
+            gameFlow.Collect(actor.CollectorComponent.Inventory, tile.Inventory, rope);
+            
+            tile.StateMachine.CurrentState.GetType().ShouldBe(typeof(Pit));
         }
     }
 }

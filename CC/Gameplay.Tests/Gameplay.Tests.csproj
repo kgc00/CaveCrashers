@@ -38,6 +38,9 @@
           <HintPath>..\packages\Castle.Core.4.4.0\lib\net45\Castle.Core.dll</HintPath>
           <Private>True</Private>
         </Reference>
+        <Reference Include="FSM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Tiles\FSM.dll</HintPath>
+        </Reference>
         <Reference Include="Microsoft.CSharp" />
         <Reference Include="Moq, Version=4.14.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920">
           <HintPath>..\packages\Moq.4.14.7\lib\net45\Moq.dll</HintPath>
