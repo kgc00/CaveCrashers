@@ -18,6 +18,7 @@ namespace CC.Items {
             Tile sourceTile = Locator.FromPosition(source.Location.Position);
             Tile targetTile = Locator.FromPosition(target.Location.Position);
             
+            sourceTile.StateMachine.HandleItemEffects(this, source, target, user);
             targetTile.StateMachine.HandleItemEffects(this, source, target, user);
         }
 

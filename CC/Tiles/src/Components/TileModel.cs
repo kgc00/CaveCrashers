@@ -6,8 +6,8 @@ namespace CC.Tiles {
         public Vector2 Position { get; private set; }
         public string ImagePath { get; private set; }
         public Type StartingStateType { get; }
-
         public Type ExploredStateType { get; }
+
         public TileModel(Vector2 position, Type startingStateType = null, Type exploredStateType = null) {
             Position = position;
             ImagePath = "";

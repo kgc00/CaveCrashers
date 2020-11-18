@@ -1,4 +1,5 @@
-﻿using CC.Tiles;
+﻿using CC.Components.Location.Model;
+using CC.Tiles;
 using NUnit.Framework;
 using Shouldly;
 using UnityEngine;
@@ -34,6 +35,13 @@ namespace Tiles.Tests {
             [Test]
             public void Tile_Has_State() {
                 node.StateMachine.CurrentState.GetType().ShouldBe(typeof(Unexplored));
+            }
+
+            [Test]
+            public void Tile_Can_Set_Wall_Open() {
+                node.Wall.SetWallOpen(Directions.West);
+                
+                node.Wall.GetWall(Directions.West).ShouldBeTrue();
             }
         }
         

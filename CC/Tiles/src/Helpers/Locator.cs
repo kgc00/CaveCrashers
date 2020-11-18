@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using CC.Components.Location;
+using UnityEngine;
 
 namespace CC.Tiles {
     public static class Locator {

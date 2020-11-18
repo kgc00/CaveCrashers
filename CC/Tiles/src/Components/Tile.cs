@@ -10,6 +10,8 @@ using UnityEngine;
 namespace CC.Tiles{
     public class Tile : IOccupiable {
         public Vector2 Position { get; private set; }
+        private readonly Wall wall;
+
         public List<IMovable> Occupants { get; private set; }
         public void AddOccupant(IMovable occupant) {
             if (Occupants.Contains(occupant)) return;
@@ -33,7 +35,10 @@ namespace CC.Tiles{
         public Type StartingStateType { get; set; }
         public Type ExploredStateType { get; set; }
 
+        public Wall Wall => wall;
+
         public Tile(TileModel model) {
+            wall = new Wall();
             Position = model.Position;
             Occupants = new List<IMovable>();
             LocationComponent = new LocationComponent(this);
@@ -43,6 +48,7 @@ namespace CC.Tiles{
         }
         
         public Tile(TileModel model, List<IMovable> occupants, List<ICollectable> pickups) {
+            wall = new Wall();
             Position = model.Position;
             Occupants = new List<IMovable>(occupants);
             LocationComponent = new LocationComponent(this);

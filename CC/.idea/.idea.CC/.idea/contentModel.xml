@@ -109,6 +109,11 @@
             <e p="ILocation.cs" t="Include" />
             <e p="IOccupiable.cs" t="Include" />
             <e p="LocationComponent.cs" t="Include" />
+            <e p="Model" t="Include">
+              <e p="Directions.cs" t="Include" />
+              <e p="DirectionsExtensions.cs" t="Include" />
+              <e p="Vector2Extensions.cs" t="Include" />
+            </e>
           </e>
           <e p="Movement" t="Include">
             <e p="IMovable.cs" t="Include" />
@@ -235,6 +240,7 @@
           <e p="Components" t="Include">
             <e p="Tile.cs" t="Include" />
             <e p="TileModel.cs" t="Include" />
+            <e p="Wall.cs" t="Include" />
           </e>
           <e p="Helpers" t="Include">
             <e p="Identifier.cs" t="Include" />

@@ -49,6 +49,9 @@
         <Compile Include="src\Location\ILocation.cs" />
         <Compile Include="src\Location\IOccupiable.cs" />
         <Compile Include="src\Location\LocationComponent.cs" />
+        <Compile Include="src\Location\Model\Directions.cs" />
+        <Compile Include="src\Location\Model\DirectionsExtensions.cs" />
+        <Compile Include="src\Location\Model\Vector2Extensions.cs" />
         <Compile Include="src\Movement\IMovable.cs" />
         <Compile Include="src\Movement\IMovementController.cs" />
         <Compile Include="src\Movement\MovementComponent.cs" />

@@ -1,5 +1,6 @@
 ﻿﻿using System;
  using CC.Components.Location;
+ using CC.Components.Location.Model;
  using CC.Components.Tool;
  using FSM.StateMachines;
 
@@ -9,10 +10,17 @@
         public override string ImagePath { get; } = "test";
         public override void HandleItemEffects(IUsable item, ILocation source, ILocation target, IManipulator user) {
             if (Identifier.IsShovel(item)) {
-                if (target == StateMachine.Tile.LocationComponent) {
-                    Console.WriteLine("Changing state");
+                var isTarget = target.Location.Position == StateMachine.Tile.Position;
+
+                if (isTarget) {
+                    var sourceDir = target.Location.LocationComponent.GetDirection(source);
+                    StateMachine.Tile.Wall.SetWallOpen(sourceDir);
+ 
                     StateMachine.ChangeState(StateMachine.States[StateMachine.ExploredStateType]);
-                    Console.WriteLine(StateMachine.CurrentState);
+                }
+                else {
+                    var targetDir = source.Location.LocationComponent.GetDirection(target);
+                    StateMachine.Tile.Wall.SetWallOpen(targetDir);
                 }
             }
         }
